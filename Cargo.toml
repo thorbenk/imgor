@@ -1,0 +1,12 @@
+[package]
+name = "imgor"
+version = "0.0.1"
+authors = ["Thorben Kroeger <thorbenkroeger@gmail.com>"]
+
+[dependencies]
+rexiv2 = "0.4"
+chrono = "0.3"
+itertools = "0.6"
+clap = "2.24"
+try_opt = "0.1.1"
+error-chain = "0.10"

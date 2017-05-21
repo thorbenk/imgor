@@ -13,3 +13,4 @@ addons:
 
 script:
     - cargo build
+    - cargo test

@@ -1,0 +1,15 @@
+language: rust
+
+rust:
+    - nightly
+
+cache:
+    cargo: true
+
+addons:
+    apt:
+        packages:
+            - libgexiv2-dev
+
+script:
+    - cargo build

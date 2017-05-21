@@ -11,6 +11,9 @@ addons:
         packages:
             - libgexiv2-dev
 
+env:
+    - RUST_TEST_THREADS=1
+
 script:
     - cargo build
     - cargo test

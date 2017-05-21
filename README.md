@@ -1,5 +1,7 @@
 ## imgor - command line image organizer 
 
+[![Build Status](https://travis-ci.org/thorbenk/imgor.svg?branch=master)](https://travis-ci.org/thorbenk/imgor)
+
 This is a simple command line utility for managing photo files.
 It assumes a RAW workflow with [Darktable](http://www.darktable.org/).
 
